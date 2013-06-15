@@ -7,7 +7,7 @@ CFLAGS += -Wall -Wpointer-arith
 CXXFLAGS := $(CFLAGS)
 CFLAGS += -Wstrict-prototypes -Wmissing-prototypes
 
-PREFIX = /usr/local
+PREFIX = /usr
 LIBDIR = $(PREFIX)/lib
 # subdir below LIBDIR in which to install the libv4lx libc wrappers
 LIBSUBDIR = libv4l
